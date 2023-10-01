@@ -1,0 +1,118 @@
+body{
+    background-image: url(pexels-alexandre-p-junior-7736066.jpg);
+    background-size: cover;
+    align-items: center;
+}
+
+.div{
+    align-items: center;
+}
+
+.logod-gurman{
+    width: 80px;
+    height: 30px;
+    border-radius: 8px;
+    
+
+}
+
+.main{
+    background: linear-gradient(to right, #353D46, #00093C);
+    color: black;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    width: 80%;
+    height: fit-content;
+    align-items: center;
+    margin-top: 10%;
+    border-radius: 5px;
+}
+.div{
+    color: white;
+    bottom: 0;
+    background: transparent;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+@media  ( max-width: 1100px) {
+    .main{
+        background: linear-gradient(to right, #353D46, #00093C);
+        color: black;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        border: 2px solid black;
+        width: 80%;
+        height: fit-content;
+        align-items: center;
+        margin-top: 15%;
+    }
+
+    .div {
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        color: white;
+      }
+}
+
+@media  ( max-width: 700px) {
+    .main{
+        background: linear-gradient(to right, #353D46, #00093C);
+        color: black;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        border: 2px solid black;
+        width: 80%;
+        height: fit-content;
+        align-items: center;
+        margin-top: 30%;
+    }
+    .div{
+        position: absolute;
+        bottom: 0;
+        color: white;
+        background: transparent;
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+@media  ( max-width: 500px) {
+    .main{
+        background: linear-gradient(to right, #353D46, #00093C);
+        color: black;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        border: 2px solid black;
+        width: 80%;
+        height: fit-content;
+        align-items: center;
+        margin-top: 50%;
+    }
+    .div{
+        position: absolute;
+        bottom: 0;
+        color: white;
+        background: transparent;
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 2000px){
+    .div {
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        color: white;
+      }
+}
